@@ -39,11 +39,8 @@ def playSong():
     webbrowser.get('chrome').open_new_tab(url)
 
 
-Daisy('Welcome to- Digital Assistant as Integrated Speech Yonder. By the way, you can call me Daisy.')
-
-# Todo --> Login verification function
-# Todo from file. Store some text as password for Daisy to read.
-#Daisy('Please say the password')
+Daisy('''Welcome to- Digital Assistant Integrated for Speech Yonder. 
+By the way, you can call me Daisy.''')
 
 
 def commands(command):
@@ -62,8 +59,6 @@ def commands(command):
     elif 'stop the program please' in command:
         Daisy('Shutting down the program')
         quit()
-
-# Todo Extra functions and commands for automation
 
 
 while True:
